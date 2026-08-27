@@ -15,21 +15,14 @@
     }
   },
   "general": {
-    "alwaysSpread": true,
+    "weaponType": "shotgun",
     "fireMode": "scguns:semi_automatic",
     "gripType": "scguns:two_handed",
     "baseGripType": "scguns:two_handed",
-    "projectileAmount": 26,
-    "rate": 7,
-    "recoilAngle": 13.0,
-    "recoilKick": 2.5,
-    "spread": 10.0,
+    "rate": 15,
     "meleeDamage": 2.5,
     "meleeCooldownTicks": 20,
-    "hotBarrelRate": 45,
-    "criticalChance": 0.08,
-    "playerKnockBack": true,
-    "playerKnockBackStrength": 0.45
+    "hotBarrelRate": 45
   },
   "modules": {
     "attachments": {
@@ -37,12 +30,8 @@
         "yOffset": 3.8,
         "zOffset": -6.25
       },
-      "stock": {
+      "magazine": {
         "scale": 0.0
-      },
-      "underBarrel": {
-        "yOffset": 5.5,
-        "zOffset": -2.5
       }
     },
     "zoom": {
@@ -52,8 +41,16 @@
     }
   },
   "projectile": {
-    "advantage": "scguns:none",
+    "alwaysSpread": true,
+    "projectileAmount": 26,
+    "recoilAngle": 13.0,
+    "recoilKick": 2.5,
+    "spread": 10.0,
     "damage": 20.0,
+    "criticalChance": 0.08,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.45,
+    "advantage": "scguns:none",
     "ejectsCasing": true,
     "item": "scguns:shotgun_shell",
     "casingType": "scguns:small_copper_casing",
@@ -65,7 +62,7 @@
   },
   "reloads": {
     "emptyMagTimer": 0,
-    "maxAmmo": 6,
+    "maxAmmo": 3,
     "reloadItem": "scguns:shotgun_shell",
     "reloadTimer": 60,
     "reloadType": "scguns:manual"

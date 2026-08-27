@@ -25,6 +25,26 @@ public class ModItems {
                     ModSounds.COPPER_GUN_JAM.get(),
                     ModSounds.COPPER_GUN_JAM.get()
             ));
+    public static final RegistryObject<AnimatedGunItem> CHOPPA = ITEMS.register("choppa",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "choppa",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
+    public static final RegistryObject<AnimatedGunItem> CHOPPA_CONVERSION = ITEMS.register("choppa_conversion",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "choppa_conversion",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

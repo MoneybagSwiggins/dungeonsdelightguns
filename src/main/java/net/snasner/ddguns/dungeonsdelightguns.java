@@ -51,6 +51,16 @@ public class dungeonsdelightguns
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
         event.accept(ModItems.SAPPHIRE);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.GNASHER);
+        }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.CHOPPA);
+        }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.CHOPPA_CONVERSION);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
