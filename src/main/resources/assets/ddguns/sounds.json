@@ -1,0 +1,11 @@
+{
+
+  "item.choppa.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/choppa/fire"
+      }
+    ]
+  }
+}
