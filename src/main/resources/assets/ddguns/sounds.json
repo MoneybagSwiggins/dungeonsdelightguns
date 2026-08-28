@@ -7,5 +7,21 @@
         "name": "ddguns:item/choppa/fire"
       }
     ]
+  },
+  "item.gnasher.cock": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/gnasher/cock"
+      }
+    ]
+  },
+  "item.gnasher.reload": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/gnasher/reload"
+      }
+    ]
   }
 }

@@ -68,10 +68,10 @@
     "reloadType": "scguns:manual"
   },
   "sounds": {
-    "cock": "scguns:item.pistol.cock",
+    "cock": "ddguns:item.gnasher.cock",
     "enchantedFire": "scguns:item.boomstick.fire",
     "fire": "scguns:item.boomstick.fire",
     "silencedFire": "scguns:item.combat_shotgun.silenced_fire",
-    "reload": "scguns:item.gauss.reload"
+    "reload": "ddguns:item.gnasher.reload"
   }
 }
