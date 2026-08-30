@@ -1,0 +1,55 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 4.5,
+      "zOffset": -5,
+      "textureLocation": "muzzle_flash_5"
+    }
+  },
+  "general": {
+    "fireMode": "scguns:pulse",
+    "fireTimer": 30,
+    "gripType": "scguns:two_handed",
+    "rate": 34,
+    "meleeDamage": 5,
+    "meleeCooldownTicks": 10,
+    "meleeReach": 2.5,
+    "hotBarrelRate":  50,
+    "criticalChance": 0.05
+  },
+  "modules": {
+  },
+  "projectile": {
+    "advantage": "scguns:none",
+    "alwaysSpread": true,
+    "projectileAmount": 3,
+    "recoilAngle": 8.0,
+    "spread": 10.0,
+    "recoilKick": 0.5,
+    "damage": 15.0,
+    "ejectsCasing": false,
+    "gravity": false,
+    "item": "scguns:blaze_fuel",
+    "life": 2,
+    "size": 1,
+    "speed": 6.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 7,
+    "reloadItem": "scguns:blaze_fuel",
+    "reloadByproduct": "scguns:empty_tank",
+    "byproductChance": 0.65,
+    "reloadTimer": 20,
+    "reloadType": "scguns:single_item"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "ddguns:item.nebilitsa.fire",
+    "fire": "ddguns:item.nebilitsa.fire",
+    "preFire": "ddguns:item.nebilitsa.pre_fire",
+    "reload": "scguns:item.flamethrower.reload"
+  }
+}

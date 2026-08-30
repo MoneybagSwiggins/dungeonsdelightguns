@@ -1,0 +1,211 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.choppa - Converted",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "gun_body",
+					"pivot": [0, -1.32515, -0.7466],
+					"rotation": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, 0, -1],
+							"size": [1.5, 1.5, 3.5],
+							"uv": {
+								"north": {"uv": [6, 7], "uv_size": [1.5, 1.5]},
+								"east": {"uv": [2, 8], "uv_size": [3.5, 1.5]},
+								"south": {"uv": [10.5, 8], "uv_size": [1.5, 1.5]},
+								"west": {"uv": [7, 8], "uv_size": [3.5, 1.5]},
+								"up": {"uv": [5.5, 4.5], "uv_size": [1.5, 3.5]},
+								"down": {"uv": [7, 8], "uv_size": [1.5, -3.5]}
+							}
+						},
+						{
+							"origin": [-0.25, 0.5, -1.5],
+							"size": [1, 1, 2.5],
+							"pivot": [0.25, 1, 0.25],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [10, 9.5], "uv_size": [1, 1]},
+								"east": {"uv": [5.5, 12], "uv_size": [2.5, 1]},
+								"south": {"uv": [8, 4], "uv_size": [1, 1]},
+								"west": {"uv": [6, 5], "uv_size": [2.5, 1]},
+								"up": {"uv": [8, 9.5], "uv_size": [1, 2.5]},
+								"down": {"uv": [12.5, 12], "uv_size": [-2.5, 1], "uv_rotation": 270}
+							}
+						},
+						{
+							"origin": [0.2375, -0.75, 0.5],
+							"size": [0.025, 1, 0.5],
+							"uv": {
+								"north": {"uv": [9.5, 3], "uv_size": [0.5, 1]},
+								"east": {"uv": [10, 4], "uv_size": [-0.5, -1]},
+								"south": {"uv": [9.5, 3], "uv_size": [0.5, 1]},
+								"west": {"uv": [9.5, 4], "uv_size": [0.5, -1]},
+								"up": {"uv": [9.5, 3], "uv_size": [0.5, 0.5]},
+								"down": {"uv": [9.5, 4], "uv_size": [0.5, -0.5]}
+							}
+						},
+						{
+							"origin": [0, -2, 1],
+							"size": [0.5, 2.5, 1.5],
+							"pivot": [0.25, -0.25, 1.75],
+							"rotation": [22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [4.5, 11], "uv_size": [-0.5, 2.5]},
+								"east": {"uv": [3, 11], "uv_size": [1.5, 2.5]},
+								"south": {"uv": [3, 11], "uv_size": [0.5, 2.5]},
+								"west": {"uv": [4, 11], "uv_size": [1.5, 2.5]},
+								"up": {"uv": [10.5, 1.5], "uv_size": [-0.5, -1.5]},
+								"down": {"uv": [0.5, 11.5], "uv_size": [-0.5, -1.5]}
+							}
+						},
+						{
+							"origin": [-0.25, -2, 0.75],
+							"size": [1, 0.5, 2],
+							"pivot": [0.25, -0.25, 1.75],
+							"rotation": [22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 9], "uv_size": [1, 0.5]},
+								"east": {"uv": [8, 8], "uv_size": [2, 0.5]},
+								"south": {"uv": [6.5, 8.5], "uv_size": [1, 0.5]},
+								"west": {"uv": [8, 8], "uv_size": [2, 0.5]},
+								"up": {"uv": [5.5, 8], "uv_size": [2, 1], "uv_rotation": 270},
+								"down": {"uv": [5.5, 7.5], "uv_size": [2, -1], "uv_rotation": 270}
+							}
+						}
+					]
+				},
+				{
+					"name": "barrels",
+					"parent": "gun_body",
+					"pivot": [0, 0.75, 3]
+				},
+				{
+					"name": "muzzle_brake",
+					"parent": "barrels",
+					"pivot": [0, 0.75, 3]
+				},
+				{
+					"name": "silencer",
+					"parent": "barrels",
+					"pivot": [0, 0.75, 9]
+				},
+				{
+					"name": "advanced_silencer",
+					"parent": "barrels",
+					"pivot": [0, 0.75, 7.75]
+				},
+				{
+					"name": "standard_barrel",
+					"parent": "barrels",
+					"pivot": [0, 0.75, 3]
+				},
+				{
+					"name": "extended_barrel",
+					"parent": "barrels",
+					"pivot": [0, 1.1, 5]
+				},
+				{
+					"name": "body",
+					"parent": "gun_body",
+					"pivot": [1, 0, -3]
+				},
+				{
+					"name": "bolt",
+					"parent": "body",
+					"pivot": [1, 0, -3],
+					"cubes": [
+						{
+							"origin": [0.2375, 0, 0],
+							"size": [0.025, 2, 3.5],
+							"uv": {
+								"north": {"uv": [6, 9], "uv_size": [0.5, 2]},
+								"east": {"uv": [10.5, 2.5], "uv_size": [-3.5, 2]},
+								"south": {"uv": [10, 2.5], "uv_size": [0.5, 2]},
+								"west": {"uv": [7, 2.5], "uv_size": [3.5, 2]},
+								"up": {"uv": [7, 2.5], "uv_size": [3.5, 0.5], "uv_rotation": 270},
+								"down": {"uv": [10.5, 4], "uv_size": [-3.5, 0.5], "uv_rotation": 270}
+							}
+						}
+					]
+				},
+				{
+					"name": "sights",
+					"parent": "bolt",
+					"pivot": [0, 1.425, -2.35]
+				},
+				{
+					"name": "magazine",
+					"parent": "gun_body",
+					"pivot": [-0.25, -2.5, -2.5],
+					"cubes": [
+						{
+							"origin": [0, -1, -1.25],
+							"size": [0.5, 1.5, 1.5],
+							"uv": {
+								"north": {"uv": [2.5, 12], "uv_size": [0.5, 1.5]},
+								"east": {"uv": [1.5, 12], "uv_size": [1.5, 1.5]},
+								"south": {"uv": [5, 12], "uv_size": [0.5, 1.5]},
+								"west": {"uv": [3, 12], "uv_size": [-1.5, 1.5]},
+								"up": {"uv": [5, 12], "uv_size": [0.5, 1.5]},
+								"down": {"uv": [4.5, 13.5], "uv_size": [-0.5, -1.5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "gun_body",
+					"pivot": [14, -1.9432, -1.7969],
+					"cubes": [
+						{
+							"origin": [4.75, -7.7432, 4.9531],
+							"size": [2.5, 10, 2.5],
+							"pivot": [6, -2.7432, 6.2031],
+							"rotation": [180, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "gun_body",
+					"pivot": [-6, -2.4432, 6.2031],
+					"rotation": [180, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7.25, -6.2432, 4.9531],
+							"size": [2.5, 10, 2.5],
+							"pivot": [-6, -1.2432, 6.2031],
+							"rotation": [180, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
