@@ -1407,7 +1407,7 @@
 			},
 			"sound_effects": {
 				"0.375": {
-					"effect": "reload_mag_in"
+					"effect": "ddguns:item.gnasher.reload"
 				}
 			},
 			"particle_effects": {

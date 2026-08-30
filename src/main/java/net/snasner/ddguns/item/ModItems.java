@@ -45,6 +45,36 @@ public class ModItems {
                     ModSounds.COPPER_GUN_JAM.get(),
                     ModSounds.COPPER_GUN_JAM.get()
             ));
+    public static final RegistryObject<AnimatedGunItem> NEBILITSA = ITEMS.register("nebilitsa",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "nebilitsa",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
+    public static final RegistryObject<AnimatedGunItem> WRINGMAN = ITEMS.register("wringman",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "wringman",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
+    public static final RegistryObject<AnimatedGunItem> PLASMA_PISTOL = ITEMS.register("plasma_pistol",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "plasma_pistol",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

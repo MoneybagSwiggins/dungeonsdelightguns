@@ -8,6 +8,46 @@
       }
     ]
   },
+  "item.wringman.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/wringman/fire"
+      }
+    ]
+  },
+  "item.wringman.enchant_fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/wringman/enchant_fire"
+      }
+    ]
+  },
+  "item.plasma_pistol.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/plasma_pistol/fire"
+      }
+    ]
+  },
+  "item.nebilitsa.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/nebilitsa/fire"
+      }
+    ]
+  },
+  "item.nebilitsa.pre_fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/nebilitsa/pre_fire"
+      }
+    ]
+  },
   "item.gnasher.cock": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [
