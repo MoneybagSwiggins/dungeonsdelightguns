@@ -9,11 +9,13 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.snasner.ddguns.client.render.ClientHandler;
 import net.snasner.ddguns.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +38,9 @@ public class dungeonsdelightguns
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
+                    ClientHandler.registerClientHandlers(modEventBus);
+                });
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

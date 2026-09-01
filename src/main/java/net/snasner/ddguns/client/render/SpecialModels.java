@@ -1,22 +1,66 @@
 package net.snasner.ddguns.client.render;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.BakedModel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.client.event.ModelEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-@net.minecraftforge.fml.common.Mod.EventBusSubscriber(modid = "ddguns", value = {net.minecraftforge.api.distmarker.Dist.CLIENT}, bus = net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD)
+import static net.snasner.ddguns.dungeonsdelightguns.MODID;
+
+@net.minecraftforge.fml.common.Mod.EventBusSubscriber(modid = MODID, value = {net.minecraftforge.api.distmarker.Dist.CLIENT}, bus = net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus.MOD)
 
 public enum SpecialModels {
-    GNASHER_MAIN("gnasher/main"), GNASHER_STAN_MAG("gnasher/stan_mag"), GNASHER_EXT_MAG("gnasher/ext_mag"), GNASHER_SPEED_MAG("gnasher/speed_mag");
+    GNASHER_MAIN("gnasher/main"), GNASHER_STAN_MAG("gnasher/stan_mag"), GNASHER_EXT_MAG("gnasher/ext_mag"), GNASHER_SPEED_MAG("gnasher/speed_mag"), GNASHER_STA_BARREL("gnasher/sta_barrel"), GNASHER_EXT_BARREL("gnasher/ext_barrel"), GNASHER_MUZZLE_BRAKE("gnasher/muzzle_brake"), GNASHER_SILENCER("gnasher/silencer"), GNASHER_ADVANCED_SILENCER("gnasher/advanced_silencer"),
+    CHOPPA_CONVERSION_MAIN("choppa_conversion/main"), CHOPPA_CONVERSION_STAN_MAG("choppa_conversion/stan_mag"), CHOPPA_CONVERSION_EXT_MAG("choppa_conversion/ext_mag"), CHOPPA_CONVERSION_SPEED_MAG("choppa_conversion/speed_mag");
 
-    private final net.minecraft.resources.ResourceLocation modelLocation;
-    private net.minecraft.client.resources.model.BakedModel cachedModel;
+    private final ResourceLocation modelLocation;
 
-    private SpecialModels(java.lang.String modelName) { /* compiled code */ }
+    /**
+     * Cached model
+     */
+    private BakedModel cachedModel;
 
-    public net.minecraft.client.resources.model.BakedModel getModel() { /* compiled code */ };
+    /**
+     * Sets the model's location
+     *
+     * @param modelName name of the model file
+     */
+    SpecialModels(String modelName) {
+        this.modelLocation = new ResourceLocation(MODID, "special/" + modelName);
+    }
 
-    @net.minecraftforge.eventbus.api.SubscribeEvent
-    public static void registerAdditional(net.minecraftforge.client.event.ModelEvent.RegisterAdditional event) { /* compiled code */ }
+    /**
+     * Registers the special models into the Forge Model Bakery. This is only called once on the
+     * load of the game.
+     */
+    @SubscribeEvent
+    public static void registerAdditional(ModelEvent.RegisterAdditional event) {
+        for (SpecialModels model : values()) {
+            event.register(model.modelLocation);
+        }
+    }
 
-    @net.minecraftforge.eventbus.api.SubscribeEvent
-    public static void onBake(net.minecraftforge.client.event.ModelEvent.BakingCompleted event) { /* compiled code */ }
+    /**
+     * Clears the cached BakedModel since it's been rebuilt. This is needed since the models may
+     * have changed when a resource pack was applied, or if resources are reloaded.
+     */
+    @SubscribeEvent
+    public static void onBake(ModelEvent.BakingCompleted event) {
+        for (SpecialModels model : values()) {
+            model.cachedModel = null;
+        }
+    }
 
+    /**
+     * Gets the model
+     *
+     * @return isolated model
+     */
+    public BakedModel getModel() {
+        if (this.cachedModel == null) {
+            this.cachedModel = Minecraft.getInstance().getModelManager().getModel(this.modelLocation);
+        }
+        return this.cachedModel;
+    }
 }

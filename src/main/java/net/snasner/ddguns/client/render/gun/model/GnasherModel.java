@@ -21,6 +21,27 @@ public class GnasherModel implements IOverrideModel {
         RenderUtil.renderModel(SpecialModels.GNASHER_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
         this.renderMagazineAttachments(stack, matrixStack, buffer, light, overlay);
     }
+    private void renderBarrelAndAttachments(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+        boolean hasExtendedBarrel = false;
+
+        if (Gun.hasAttachmentEquipped(stack, Type.BARREL)) {
+            if (Gun.getAttachment(Type.BARREL, stack).getItem() == ModItems.EXTENDED_BARREL.get()) {
+                RenderUtil.renderModel(SpecialModels.GNASHER_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                hasExtendedBarrel = true;
+            } else if (Gun.getAttachment(Type.BARREL, stack).getItem() == ModItems.SILENCER.get()) {
+                RenderUtil.renderModel(SpecialModels.GNASHER_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(Type.BARREL, stack).getItem() == ModItems.MUZZLE_BRAKE.get()) {
+                RenderUtil.renderModel(SpecialModels.GNASHER_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
+            } else if (Gun.getAttachment(Type.BARREL, stack).getItem() == ModItems.ADVANCED_SILENCER.get()) {
+                RenderUtil.renderModel(SpecialModels.GNASHER_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+            }
+        }
+
+        // Render the standard barrel if no extended barrel is attached
+        if (!hasExtendedBarrel) {
+            RenderUtil.renderModel(SpecialModels.GNASHER_STA_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+    }
 
     private void renderMagazineAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, Type.MAGAZINE)) {
