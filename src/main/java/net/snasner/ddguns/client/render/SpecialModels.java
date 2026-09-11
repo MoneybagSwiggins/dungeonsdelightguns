@@ -12,7 +12,9 @@ import static net.snasner.ddguns.dungeonsdelightguns.MODID;
 
 public enum SpecialModels {
     GNASHER_MAIN("gnasher/main"), GNASHER_STAN_MAG("gnasher/stan_mag"), GNASHER_EXT_MAG("gnasher/ext_mag"), GNASHER_SPEED_MAG("gnasher/speed_mag"), GNASHER_STA_BARREL("gnasher/sta_barrel"), GNASHER_EXT_BARREL("gnasher/ext_barrel"), GNASHER_MUZZLE_BRAKE("gnasher/muzzle_brake"), GNASHER_SILENCER("gnasher/silencer"), GNASHER_ADVANCED_SILENCER("gnasher/advanced_silencer"),
-    CHOPPA_CONVERSION_MAIN("choppa_conversion/main"), CHOPPA_CONVERSION_STAN_MAG("choppa_conversion/stan_mag"), CHOPPA_CONVERSION_EXT_MAG("choppa_conversion/ext_mag"), CHOPPA_CONVERSION_SPEED_MAG("choppa_conversion/speed_mag");
+    CHOPPA_CONVERSION_MAIN("choppa_conversion/main"), CHOPPA_CONVERSION_STAN_MAG("choppa_conversion/stan_mag"), CHOPPA_CONVERSION_EXT_MAG("choppa_conversion/ext_mag"), CHOPPA_CONVERSION_SPEED_MAG("choppa_conversion/speed_mag"),
+    WRINGMAN_MAIN("wringman/main"),
+    NEBILITSA_MAIN("nebilitsa/main");
 
     private final ResourceLocation modelLocation;
 

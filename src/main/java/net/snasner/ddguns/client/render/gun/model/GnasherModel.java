@@ -19,9 +19,11 @@ public class GnasherModel implements IOverrideModel {
 
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         RenderUtil.renderModel(SpecialModels.GNASHER_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        this.renderBarrelAndAttachments(stack, matrixStack, buffer, light, overlay);
         this.renderMagazineAttachments(stack, matrixStack, buffer, light, overlay);
     }
-    private void renderBarrelAndAttachments(PoseStack matrixStack, MultiBufferSource buffer, ItemStack stack, int light, int overlay) {
+
+    private void renderBarrelAndAttachments(ItemStack stack,PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         boolean hasExtendedBarrel = false;
 
         if (Gun.hasAttachmentEquipped(stack, Type.BARREL)) {

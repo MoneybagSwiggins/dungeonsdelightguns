@@ -3,50 +3,57 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/gnasher_texture",
-		"particle": "block/gnasher_texture"
+		"1": "ddguns:item/gnasher"
 	},
 	"elements": [
 		{
-			"from": [7.46, -5.29, -3.54],
-			"to": [8.54, -4.21, -2.96],
-			"rotation": {"angle": 45, "axis": "z", "origin": [8, -4.75, 3.5]},
+			"from": [7.46, 1.71, -3.54],
+			"to": [8.54, 2.79, -2.96],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 2.25, 3.5]},
 			"faces": {
-				"north": {"uv": [8.75, 2, 9.25, 2.5], "rotation": 270, "texture": "#0"},
-				"east": {"uv": [6, 0, 6.25, 0.5], "texture": "#0"},
-				"south": {"uv": [0.5, 3.75, 1, 4.25], "texture": "#0"},
-				"west": {"uv": [2, 9.5, 2.25, 10], "texture": "#0"},
-				"up": {"uv": [5.75, 0, 6.25, 0.25], "texture": "#0"},
-				"down": {"uv": [5.75, 0, 6.25, 0.25], "texture": "#0"}
+				"north": {"uv": [8.75, 2, 9.25, 2.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [6, 0, 6.25, 0.5], "texture": "#1"},
+				"south": {"uv": [0.5, 3.75, 1, 4.25], "texture": "#1"},
+				"west": {"uv": [2, 9.5, 2.25, 10], "texture": "#1"},
+				"up": {"uv": [5.75, 0, 6.25, 0.25], "texture": "#1"},
+				"down": {"uv": [5.75, 0, 6.25, 0.25], "texture": "#1"}
 			}
 		},
 		{
-			"from": [7.5, -5.25, -3.5],
-			"to": [8.5, -4.25, 10.5],
-			"rotation": {"angle": 45, "axis": "z", "origin": [8, -4.75, 3.5]},
+			"from": [7.5, 1.75, -3.5],
+			"to": [8.5, 2.75, 10.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 2.25, 3.5]},
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
-				"east": {"uv": [0, 11, 7, 11.5], "texture": "#0"},
-				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#0"},
-				"west": {"uv": [0, 12, 7, 11.5], "texture": "#0"},
-				"up": {"uv": [0, 11.5, 7, 11], "rotation": 270, "texture": "#0"},
-				"down": {"uv": [0, 11.5, 7, 12], "rotation": 270, "texture": "#0"}
+				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
+				"east": {"uv": [0, 11, 7, 11.5], "texture": "#1"},
+				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
+				"west": {"uv": [0, 12, 7, 11.5], "texture": "#1"},
+				"up": {"uv": [0, 11.5, 7, 11], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 11.5, 7, 12], "rotation": 270, "texture": "#1"}
 			}
 		}
 	],
 	"groups": [
 		{
-			"name": "magazine",
-			"origin": [8, 8, 8],
+			"name": "gun_body",
+			"origin": [7.25, 1.5, 7],
 			"scope": 0,
 			"color": 0,
 			"children": [
 				{
-					"name": "extended_mag",
-					"origin": [8, -0.75, 3.5],
+					"name": "magazine",
+					"origin": [8, 8, 8],
 					"scope": 0,
 					"color": 0,
-					"children": [0, 1]
+					"children": [
+						{
+							"name": "extended_mag",
+							"origin": [8, -0.75, 3.5],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
 				}
 			]
 		}
