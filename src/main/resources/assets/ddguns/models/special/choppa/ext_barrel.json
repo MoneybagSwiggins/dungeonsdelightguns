@@ -1,0 +1,64 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ddguns:item/choppa",
+		"particle": "ddguns:item/choppa"
+	},
+	"elements": [
+		{
+			"name": "extended_barrel",
+			"from": [7.25, 5.6, 3.5],
+			"to": [8.25, 6.6, 11],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6.35, 6]},
+			"faces": {
+				"north": {"uv": [0.75, 0.25, 0, 1], "texture": "#0"},
+				"east": {"uv": [5.75, 9, 5, 4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [1, 0.25, 0.25, 1], "texture": "#0"},
+				"west": {"uv": [0.75, 5.5, 0, 10.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.75, 4, 5, 9], "texture": "#0"},
+				"down": {"uv": [0.75, 10.5, 0, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "extended_barrel",
+			"from": [7.25, 5.25, 3.25],
+			"to": [8.75, 6.75, 3.75],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6, 3.5]},
+			"faces": {
+				"north": {"uv": [10.25, 6, 9.5, 6.75], "texture": "#0"},
+				"east": {"uv": [5.75, 4.25, 5, 4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [4.75, 9.5, 4, 10.25], "texture": "#0"},
+				"west": {"uv": [5.75, 5.5, 5, 5.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.75, 4.25, 5, 4], "texture": "#0"},
+				"down": {"uv": [5.75, 5.5, 5, 5.25], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, -1.32515, 7.2534],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8, 0.75, 11],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "extended_barrel",
+							"origin": [8, 1.1, 13],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

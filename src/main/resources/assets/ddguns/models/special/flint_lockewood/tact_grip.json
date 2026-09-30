@@ -1,0 +1,85 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "ddguns:item/flint_lockewood",
+		"particle": "ddguns:item/flint_lockewood"
+	},
+	"elements": [
+		{
+			"name": "vertical_grip",
+			"from": [7.31098, 4.505, 4.38625],
+			"to": [8.66098, 5.555, 5.91625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [9.25, 5.5, 9.625, 5.75], "texture": "#0"},
+				"east": {"uv": [9.25, 5.75, 9.625, 6], "texture": "#0"},
+				"south": {"uv": [6, 9.25, 6.375, 9.5], "texture": "#0"},
+				"west": {"uv": [9.25, 6, 9.625, 6.25], "texture": "#0"},
+				"up": {"uv": [4.375, 9.125, 4, 8.75], "texture": "#0"},
+				"down": {"uv": [9.125, 4, 8.75, 4.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vertical_grip",
+			"from": [7.53598, 2.5725, 4.72375],
+			"to": [8.43598, 4.5725, 5.62375],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.98598, 2.96, 5.17375]},
+			"faces": {
+				"north": {"uv": [4.75, 9, 5, 9.5], "texture": "#0"},
+				"east": {"uv": [5, 9, 5.25, 9.5], "texture": "#0"},
+				"south": {"uv": [9, 5, 9.25, 5.5], "texture": "#0"},
+				"west": {"uv": [9, 5.5, 9.25, 6], "texture": "#0"},
+				"up": {"uv": [9.75, 9.5, 9.5, 9.25], "texture": "#0"},
+				"down": {"uv": [9.75, 9.5, 9.5, 9.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vertical_grip",
+			"from": [7.44598, 2.1225, 4.63375],
+			"to": [8.52598, 2.5725, 5.71375],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.98598, 2.96, 5.17375]},
+			"faces": {
+				"north": {"uv": [10.5, 10, 10.75, 10.125], "texture": "#0"},
+				"east": {"uv": [10.25, 10.5, 10.5, 10.625], "texture": "#0"},
+				"south": {"uv": [10.5, 10.5, 10.75, 10.625], "texture": "#0"},
+				"west": {"uv": [0, 10.75, 0.25, 10.875], "texture": "#0"},
+				"up": {"uv": [0.75, 10, 0.5, 9.75], "texture": "#0"},
+				"down": {"uv": [1, 9.75, 0.75, 10], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8.475, -5.85, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "grips",
+					"origin": [8.26287, -3.55233, -1.14767],
+					"scope": 0,
+					"color": 5,
+					"children": [
+						{
+							"name": "vertical_grip",
+							"origin": [8.475, -0.35, 8],
+							"scope": 0,
+							"color": 6,
+							"children": [0, 1, 2]
+						}
+					]
+				},
+				{
+					"name": "attachment_bone",
+					"origin": [8.47688, -7.07875, 11.24059],
+					"scope": 0,
+					"color": 1,
+					"children": []
+				}
+			]
+		}
+	]
+}

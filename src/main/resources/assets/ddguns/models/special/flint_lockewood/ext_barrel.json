@@ -1,0 +1,71 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "ddguns:item/flint_lockewood",
+		"particle": "ddguns:item/flint_lockewood"
+	},
+	"elements": [
+		{
+			"name": "extended_barrel",
+			"from": [7.50795, 5.88267, -5.87767],
+			"to": [8.50795, 6.88267, 2.62233],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.93295, 6.38267, -8.18017]},
+			"faces": {
+				"north": {"uv": [2.25, 0.5, 2.5, 0.75], "texture": "#0"},
+				"east": {"uv": [0, 11.75, 2.125, 12], "texture": "#0"},
+				"south": {"uv": [2.25, 0.75, 2.5, 1], "texture": "#0"},
+				"west": {"uv": [0, 11.5, 2.125, 11.75], "texture": "#0"},
+				"up": {"uv": [6.5, 12.875, 6.25, 10.75], "texture": "#0"},
+				"down": {"uv": [6.75, 10.75, 6.5, 12.875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "extended_barrel",
+			"from": [7.25796, 5.63267, -6.37767],
+			"to": [8.75796, 7.13267, -5.87767],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.93295, 6.38267, -12.18017]},
+			"faces": {
+				"north": {"uv": [3.75, 8.25, 4.125, 8.625], "texture": "#0"},
+				"east": {"uv": [9.75, 4.75, 9.875, 5.125], "texture": "#0"},
+				"south": {"uv": [8.25, 4, 8.625, 4.375], "texture": "#0"},
+				"west": {"uv": [5, 9.75, 5.125, 10.125], "texture": "#0"},
+				"up": {"uv": [10.125, 4.125, 9.75, 4], "texture": "#0"},
+				"down": {"uv": [5.625, 9.75, 5.25, 9.875], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8.475, -5.85, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8.475, -5.85, 8],
+					"scope": 0,
+					"color": 2,
+					"children": [
+						{
+							"name": "extended_barrel",
+							"origin": [8.26287, -3.55233, -1.14767],
+							"scope": 0,
+							"color": 4,
+							"children": [0, 1]
+						}
+					]
+				},
+				{
+					"name": "attachment_bone",
+					"origin": [8.47688, -7.07875, 11.24059],
+					"scope": 0,
+					"color": 1,
+					"children": []
+				}
+			]
+		}
+	]
+}

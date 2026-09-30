@@ -1,0 +1,64 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ddguns:item/choppa",
+		"particle": "ddguns:item/choppa"
+	},
+	"elements": [
+		{
+			"name": "advanced_silencer",
+			"from": [7.375, 5.375, 0.8],
+			"to": [8.625, 6.625, 1.05],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6, 0.925]},
+			"faces": {
+				"north": {"uv": [10.25, 6, 9.5, 6.75], "texture": "#0"},
+				"east": {"uv": [5.75, 4.25, 5, 4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [1, 0.25, 0.25, 1], "texture": "#0"},
+				"west": {"uv": [5.75, 5.5, 5, 5.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.75, 4.25, 5, 4], "texture": "#0"},
+				"down": {"uv": [5.75, 5.5, 5, 5.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "advanced_silencer",
+			"from": [7.25, 5.25, 1],
+			"to": [8.75, 6.75, 5.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6, 3.25]},
+			"faces": {
+				"north": {"uv": [4, 10.25, 4.75, 9.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [9, 11.25, 6.75, 12], "texture": "#0"},
+				"south": {"uv": [4.75, 9.5, 4, 10.25], "texture": "#0"},
+				"west": {"uv": [3.25, 12, 1, 11.25], "texture": "#0"},
+				"up": {"uv": [9, 12, 6.75, 11.25], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1, 12, 3.25, 11.25], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, -1.32515, 7.2534],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8, 0.75, 11],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "advanced_silencer",
+							"origin": [8, 0.75, 15.75],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

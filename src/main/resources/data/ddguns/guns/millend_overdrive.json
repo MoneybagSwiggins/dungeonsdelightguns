@@ -1,0 +1,91 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 1.5,
+      "zOffset": -9.5,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "weaponType": "special",
+    "fireMode": "scguns:semi_automatic",
+    "gripType": "scguns:one_handed",
+    "rate": 20,
+    "meleeDamage": 7.5,
+    "meleeCooldownTicks": 20,
+    "meleeReach": 4.5,
+    "hotBarrelRate": 100,
+    "speedModifier": 0.8,
+    "usesCustomMeleeAnimation": true,
+    "allowAmmoChange": true
+  },
+  "modules": {
+    "attachments": {
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 8,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "recoilAngle": 5.0,
+    "recoilKick": 2.0,
+    "spread": 1.0,
+    "criticalChance": 0.05,
+    "advantage": "scguns:none",
+    "damageFalloffStart": 28.0,
+    "damageFalloffEnd": 65.0,
+    "damageFalloffMinMultiplier": 0.75,
+    "damage": 17.5,
+    "ejectsCasing": true,
+    "gravity": false,
+    "visible": true,
+    "item": "scguns:gibbs_round",
+    "casingType": "scguns:medium_diamond_steel_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 3.0,
+    "trailLengthMultiplier": 2.0,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.3
+  },
+  "projectile_1": {
+    "alwaysSpread": false,
+    "recoilAngle": 5.0,
+    "recoilKick": 2.0,
+    "spread": 1.0,
+    "criticalChance": 0.05,
+    "advantage": "scguns:none",
+    "damageFalloffStart": 28.0,
+    "damageFalloffEnd": 65.0,
+    "damageFalloffMinMultiplier": 0.75,
+    "damage": 25.5,
+    "ejectsCasing": true,
+    "visible": true,
+    "gravity": false,
+    "item": "scguns:krahg_round",
+    "casingType": "scguns:large_brass_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 3.0,
+    "trailLengthMultiplier": 2.0,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 1
+  },
+  "reloads": {
+    "emptyMagTimer": 30,
+    "maxAmmo": 7,
+    "reloadItem": "scguns:gibbs_round",
+    "reloadTimer": 120,
+    "reloadType": "scguns:manual"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "ddguns:item.choppa.fire",
+    "fire": "ddguns:item.choppa.fire",
+    "reload": "scguns:item.gauss.reload"
+  }
+}

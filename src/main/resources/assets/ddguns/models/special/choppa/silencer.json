@@ -1,0 +1,92 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ddguns:item/choppa",
+		"particle": "ddguns:item/choppa"
+	},
+	"elements": [
+		{
+			"name": "silencer",
+			"from": [9, 4.25, 3.25],
+			"to": [9, 5.75, 3.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 4.25, 3.75]},
+			"faces": {
+				"north": {"uv": [0, 0.25, 0, 1], "texture": "#0"},
+				"east": {"uv": [9.25, 11.75, 10, 11.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1, 0.25, 1, 1], "texture": "#0"},
+				"west": {"uv": [9.25, 11.75, 10, 11.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0.25, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 1, 0, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "silencer",
+			"from": [6.75, 4, 4.75],
+			"to": [6.75, 6, 5.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.75, 4, 5.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1], "texture": "#0"},
+				"east": {"uv": [10.75, 6.5, 10.5, 7.5], "texture": "#0"},
+				"south": {"uv": [1, 0, 1, 1], "texture": "#0"},
+				"west": {"uv": [10.75, 6.5, 10.5, 7.5], "texture": "#0"},
+				"up": {"uv": [0, 0.25, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 1, 0, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "silencer",
+			"from": [8, 4.6, 2.25],
+			"to": [10, 6.6, 5.75],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 4.6, 5.75]},
+			"faces": {
+				"north": {"uv": [1, 11, 0, 12], "texture": "#0"},
+				"east": {"uv": [3.25, 11, 5, 12], "texture": "#0"},
+				"south": {"uv": [0, 12, 1, 11], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [6.75, 11, 5, 12], "texture": "#0"},
+				"up": {"uv": [3.25, 12, 5, 11], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5, 11, 6.75, 12], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "silencer",
+			"from": [7.25, 5.25, 1.75],
+			"to": [8.75, 6.75, 2.25],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6, 2]},
+			"faces": {
+				"north": {"uv": [10.25, 6, 9.5, 6.75], "texture": "#0"},
+				"east": {"uv": [5.75, 4.25, 5, 4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [1, 0.25, 0.25, 1], "texture": "#0"},
+				"west": {"uv": [5.75, 5.5, 5, 5.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.75, 4.25, 5, 4], "texture": "#0"},
+				"down": {"uv": [5.75, 5.5, 5, 5.25], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, -1.32515, 7.2534],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8, 0.75, 11],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "silencer",
+							"origin": [8, 0.75, 17],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1, 2, 3]
+						}
+					]
+				}
+			]
+		}
+	]
+}

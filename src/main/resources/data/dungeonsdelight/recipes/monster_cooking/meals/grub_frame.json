@@ -1,0 +1,23 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "dungeonsdelight:gunk"
+    },
+    {
+      "item": "scguns:weird_flesh"
+    },
+    {
+      "item": "dungeonsdelight:rotbulb"
+    },
+    {
+      "item": "dungeonsdelight:silverfish_abdomen"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "ddguns:grub_frame"
+  }
+}

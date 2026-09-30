@@ -1,0 +1,63 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "ddguns:item/choppa"
+	},
+	"elements": [
+		{
+			"name": "muzzle_brake",
+			"from": [7.35, 5.34645, 1.85],
+			"to": [8.65, 6.64645, 2.15],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 5.99645, 2]},
+			"faces": {
+				"north": {"uv": [11, 9.75, 10.25, 10.5], "texture": "#1"},
+				"east": {"uv": [10.75, 8.75, 10.5, 9.5], "texture": "#1"},
+				"south": {"uv": [11, 9.75, 10.25, 10.5], "texture": "#1"},
+				"west": {"uv": [10.75, 8.25, 10.5, 7.5], "texture": "#1"},
+				"up": {"uv": [10.75, 9.5, 10.5, 8.75], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10.75, 7.5, 10.5, 8.25], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "muzzle_brake",
+			"from": [7.25, 5.24645, 2],
+			"to": [8.75, 6.74645, 5.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 5.99645, 5.25]},
+			"faces": {
+				"north": {"uv": [11, 9.75, 10.25, 10.5], "texture": "#1"},
+				"east": {"uv": [8.75, 11.25, 7, 10.5], "texture": "#1"},
+				"south": {"uv": [11, 9.75, 10.25, 10.5], "texture": "#1"},
+				"west": {"uv": [10.75, 10.5, 9, 11.25], "texture": "#1"},
+				"up": {"uv": [8.75, 10.5, 7, 11.25], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [10.75, 11.25, 9, 10.5], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, -1.32515, 7.2534],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8, 0.75, 11],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "muzzle_brake",
+							"origin": [8, 0.75, 11],
+							"scope": 0,
+							"color": 0,
+							"children": [0, 1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

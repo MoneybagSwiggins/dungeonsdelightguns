@@ -1,0 +1,50 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ddguns:item/choppa",
+		"particle": "ddguns:item/choppa"
+	},
+	"elements": [
+		{
+			"name": "standard_barrel",
+			"from": [7.5, 5.5, 5.25],
+			"to": [8.5, 6.5, 11.75],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [10.25, 6, 9.5, 6.75], "texture": "#0"},
+				"east": {"uv": [8, 1, 4, 1.75], "texture": "#0"},
+				"south": {"uv": [5.75, 9.5, 5, 10.25], "texture": "#0"},
+				"west": {"uv": [8, 2, 4, 2.75], "texture": "#0"},
+				"up": {"uv": [5.75, 4, 5, 8], "texture": "#0"},
+				"down": {"uv": [0.75, 9.5, 0, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gun_body",
+			"origin": [8, -1.32515, 7.2534],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				{
+					"name": "barrels",
+					"origin": [8, 0.75, 11],
+					"scope": 0,
+					"color": 0,
+					"children": [
+						{
+							"name": "standard_barrel",
+							"origin": [8, 0.75, 11],
+							"scope": 0,
+							"color": 0,
+							"children": [0]
+						}
+					]
+				}
+			]
+		}
+	]
+}
