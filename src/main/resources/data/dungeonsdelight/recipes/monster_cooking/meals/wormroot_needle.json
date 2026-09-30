@@ -1,0 +1,29 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "container": {
+    "item": "ddguns:grub_frame"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "dungeonsdelight:slime_noodles"
+    },
+    {
+      "item": "dungeonsdelight:bubblegunk"
+    },
+    {
+      "item": "dungeonsdelight:cleaved_ancient_egg"
+    },
+    {
+      "item": "dungeonsdelight:spider_extract"
+    },
+    {
+      "item": "dungeonsdelight:spider_extract"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "ddguns:wormroot_needle"
+  }
+}

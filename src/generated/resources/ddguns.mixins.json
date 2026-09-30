@@ -7,6 +7,9 @@
   "mixins": [
     "ServerPlayHandlerMixin"
   ],
+  "client": [
+    "client.AnimatedGunItemMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

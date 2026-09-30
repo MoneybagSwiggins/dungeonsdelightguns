@@ -13,9 +13,31 @@ import static net.snasner.ddguns.dungeonsdelightguns.MODID;
 public enum SpecialModels {
     GNASHER_MAIN("gnasher/main"), GNASHER_STAN_MAG("gnasher/stan_mag"), GNASHER_EXT_MAG("gnasher/ext_mag"), GNASHER_SPEED_MAG("gnasher/speed_mag"), GNASHER_STA_BARREL("gnasher/sta_barrel"), GNASHER_EXT_BARREL("gnasher/ext_barrel"), GNASHER_MUZZLE_BRAKE("gnasher/muzzle_brake"), GNASHER_SILENCER("gnasher/silencer"), GNASHER_ADVANCED_SILENCER("gnasher/advanced_silencer"),
     CHOPPA_CONVERSION_MAIN("choppa_conversion/main"), CHOPPA_CONVERSION_STAN_MAG("choppa_conversion/stan_mag"), CHOPPA_CONVERSION_EXT_MAG("choppa_conversion/ext_mag"), CHOPPA_CONVERSION_SPEED_MAG("choppa_conversion/speed_mag"),
+    CHOPPA_MAIN("choppa/main"),CHOPPA_STA_BARREL("choppa/sta_barrel"),CHOPPA_EXT_BARREL("choppa/ext_barrel"),CHOPPA_SILENCER("choppa/silencer"),CHOPPA_ADVANCED_SILENCER("choppa/advanced_silencer"),CHOPPA_MUZZLE_BRAKE("choppa/muzzle_brake"),
     WRINGMAN_MAIN("wringman/main"),
-    NEBILITSA_MAIN("nebilitsa/main");
-
+    LUG_MAIN("lug/main"),
+    WORMROOT_NEEDLE_MAIN("wormroot_needle/main"),
+    NEBILITSA_MAIN("nebilitsa/main"),
+    MILLEND_OVERDRIVE_MAIN("millend_overdrive/main"),
+    RAYGUN_MK2_MAIN("raygun_mk2/main"),
+    FLINT_LOCKEWOOD_MAIN("flint_lockewood/main"),
+    FLINT_LOCKEWOOD_STOCK_LIGHT("flint_lockewood/light_stock"),
+    FLINT_LOCKEWOOD_STOCK_HEAVY("flint_lockewood/heavy_stock"),
+    FLINT_LOCKEWOOD_STOCK_WOODEN("flint_lockewood/wooden_stock"),
+    FLINT_LOCKEWOOD_SILENCER("flint_lockewood/silencer"),
+    FLINT_LOCKEWOOD_ADVANCED_SILENCER("flint_lockewood/advanced_silencer"),
+    FLINT_LOCKEWOOD_MUZZLE_BRAKE("flint_lockewood/muzzle_brake"),
+    FLINT_LOCKEWOOD_STAN_BARREL("flint_lockewood/stan_barrel"),
+    FLINT_LOCKEWOOD_EXT_BARREL("flint_lockewood/ext_barrel"),
+    FLINT_LOCKEWOOD_GRIP_LIGHT("flint_lockewood/light_grip"),
+    FLINT_LOCKEWOOD_GRIP_VERTICAL("flint_lockewood/tact_grip"),
+    FLINT_LOCKEWOOD_IRON_BAYONET("flint_lockewood/iron_bayonet"),
+    FLINT_LOCKEWOOD_ANTHRALITE_BAYONET("flint_lockewood/anthralite_bayonet"),
+    FLINT_LOCKEWOOD_DIAMOND_BAYONET("flint_lockewood/diamond_bayonet"),
+    FLINT_LOCKEWOOD_NETHERITE_BAYONET("flint_lockewood/netherite_bayonet"),
+    FLINT_LOCKEWOOD_STANDARD_MAG("flint_lockewood/stan_mag"),
+    FLINT_LOCKEWOOD_EXTENDED_MAG("flint_lockewood/ext_mag"),
+    FLINT_LOCKEWOOD_SPEED_MAG("flint_lockewood/speed_mag");
     private final ResourceLocation modelLocation;
 
     /**

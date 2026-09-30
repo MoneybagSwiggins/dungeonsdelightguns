@@ -1,6 +1,28 @@
 {
-  "item.ddguns.sapphire":"Sapphire",
   "item.ddguns.gnasher":"Gnasher",
   "item.ddguns.choppa":"Choppa",
-  "item.ddguns.choppa_conversion":"Choppa Conversion"
+  "item.ddguns.choppa_conversion":"Choppa Conversion",
+  "item.ddguns.wringman":"wringman",
+  "item.ddguns.nebilitsa":"Nebilitsa",
+  "item.ddguns.grub_frame":"Grub Frame",
+  "item.ddguns.millend_overdrive":"Millend Overdrive",
+  "item.ddguns.raygun_mk2":"Raygun MKII",
+  "item.ddguns.lug":"Lug",
+  "item.ddguns.wormroot_needle":"Marrowpiercer",
+  "item.ddguns.ddguns_blueprint":"ROT Blueprint",
+  "item.ddguns.flint_lockewood":"Flint Lockewood",
+  "item.ddguns.noti":"Prepared in the Monster Pot",
+  "item.ddguns.matter_baby":"Matter Baby",
+
+  "scguns.desc.gnasher":"The First and most popular mass-produced weapon by the Rabble of Outcast Thralls. Its compact and modular nature was invaluable to those who search for resources in the tight underground structures.",
+  "scguns.desc.choppa":"A heavy pistol affixed with a diamond cleaver bayonet, this weapon has been designed to eke out every bit of potential from its subpar ammunition.",
+  "scguns.desc.choppa_conversion":"A retrofit originally coming from an area underground with plentiful resources. Surprisingly, this gun was created by an unknown former prisoner, as opposed to the expected scientist or miner of ROT.",
+  "scguns.desc.nebilitsa":"Once upon a time, this was a tool used to weld and blast stone away from precious materials. When monsters appeared underground, miners discovered this weapon's devastating effectiveness as a weapon.",
+  "scguns.desc.wringman":"A minigun equipped with a sinister bladed shroud, this weapon was created by ROT scientists for the prisoners and miners they could trust to use it.",
+  "scguns.desc.grub_frame":"ROT scientists put their original creeds aside to survive in this new world underground, and by mixing their creations together, a creature that could be used to produce living weapons was created.",
+  "scguns.desc.millend_overdrive":"A first test of the Grub Frame on an antique yielded a hulking, unwieldy powerhouse of a firearm. The grub demands and rewards techniques that the average body simply cant keep up with.",
+  "scguns.desc.raygun_mk2":"A weapon devised by a former eccentric COG scientist, the Grub concealed within unleashes rapid, if infrequent, bolts of deadly plasma.",
+  "scguns.desc.lug":"The Grub within this weapon produces a pressurized gas, launching heavy shotballs at lethal speeds. Users without respirators frequently remark that this is not worth the attack on their nostrils.",
+  "scguns.desc.wormroot_needle":"An innovation from a former Asgharian scientist Dr. Jag, a concoction has rendered a Grub docile enough to use as a potent venomous bio-weapon, but its invasive nature means it is seldom used by the masses of ROT."
+
 }

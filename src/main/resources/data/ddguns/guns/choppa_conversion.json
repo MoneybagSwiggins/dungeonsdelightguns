@@ -23,11 +23,6 @@
       "magazine": {
         "scale": 0.0
       }
-    },
-    "zoom": {
-      "fovModifier": 0.6,
-      "yOffset": 6,
-      "zOffset": -1.25
     }
   },
   "projectile": {

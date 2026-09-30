@@ -1,0 +1,32 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "dungeonsdelight:chicken_jockey_sandwich"
+    },
+    {
+      "item": "dungeonsdelight:poi"
+    },
+    {
+      "item": "scguns:blueprint_scrap"
+    },
+    {
+      "item": "scguns:blueprint_scrap"
+    },
+    {
+      "item": "scguns:blueprint_scrap"
+    },
+    {
+      "item": "scguns:blueprint_scrap"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "ddguns:ddguns_blueprint"
+  }
+}

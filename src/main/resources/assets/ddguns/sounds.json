@@ -40,6 +40,14 @@
       }
     ]
   },
+  "item.wormroot_needle.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/wormroot_needle/fire"
+      }
+    ]
+  },
   "item.nebilitsa.pre_fire": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [

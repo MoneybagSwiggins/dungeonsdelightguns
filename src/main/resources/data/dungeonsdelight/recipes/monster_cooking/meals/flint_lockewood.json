@@ -1,0 +1,29 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "cookingtime": 800,
+  "experience": 250.0,
+  "ingredients": [
+    {
+      "item": "scguns:rapid_firing_unit"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "scguns:stone_gun_barrel"
+    },
+    {
+      "item": "scguns:gun_magazine"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "scguns:gun_grip"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "ddguns:flint_lockewood"
+  }
+}

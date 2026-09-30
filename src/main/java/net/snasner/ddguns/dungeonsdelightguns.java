@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.snasner.ddguns.client.render.ClientHandler;
+import net.snasner.ddguns.item.ModCreativeModTabs;
 import net.snasner.ddguns.item.ModItems;
 import org.slf4j.Logger;
 
@@ -31,6 +32,8 @@ public class dungeonsdelightguns
     public dungeonsdelightguns(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
@@ -53,28 +56,6 @@ public class dungeonsdelightguns
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-        event.accept(ModItems.SAPPHIRE);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.GNASHER);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CHOPPA);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.CHOPPA_CONVERSION);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.NEBILITSA);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.WRINGMAN);
-        }
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PLASMA_PISTOL);
-        }
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
