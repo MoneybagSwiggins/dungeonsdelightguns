@@ -19,6 +19,9 @@ import net.snasner.ddguns.client.render.ClientHandler;
 import net.snasner.ddguns.item.ModCreativeModTabs;
 import net.snasner.ddguns.item.ModItems;
 import org.slf4j.Logger;
+import top.ribs.scguns.client.screen.BlueprintScreen;
+
+import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(dungeonsdelightguns.MODID)
@@ -43,6 +46,9 @@ public class dungeonsdelightguns
 
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
                     ClientHandler.registerClientHandlers(modEventBus);
+                    BlueprintScreen.registerGunOrder(List.of(
+                        "gnasher", "choppa", "choppa_conversion", "riven", "nebilitsa", "wringman", "grub_frame", "millend_overdrive", "lug", "raygun_mk2", "wormroot_needle"
+                            ));
                 });
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

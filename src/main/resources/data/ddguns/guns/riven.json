@@ -4,49 +4,39 @@
       "size": 0.8,
       "yOffset": 5.3,
       "zOffset": -3,
+      "xOffset": -1.5,
       "textureLocation": "muzzle_flash_1"
     }
   },
   "general": {
-    "fireMode": "scguns:semi_automatic",
+    "fireMode": "scguns:automatic",
     "gripType": "scguns:one_handed",
-    "rate": 4,
-    "meleeDamage": 7,
+    "rate": 11,
+    "meleeDamage": 2.5,
     "meleeReach": 2.5,
     "meleeCooldownTicks": 10,
-    "hotBarrelRate": 14,
+    "hotBarrelRate": 15,
     "criticalChance": 0.08
   },
   "modules": {
-    "attachments": {
-      "barrel": {
-        "yOffset": 4.8,
-        "zOffset": -4.2
-      }
-    },
-    "zoom": {
-      "fovModifier": 0.6,
-      "yOffset": 6.75,
-      "zOffset": -1.25
-    }
   },
   "projectile": {
     "advantage": "scguns:none",
     "recoilAngle": 2.5,
     "recoilKick": 1.5,
     "alwaysSpread": true,
-    "damageFalloffStart": 15.0,
-    "damageFalloffEnd": 30.0,
+    "spread": 6.0,
+    "damageFalloffStart": 16.0,
+    "damageFalloffEnd": 28.0,
     "damageFalloffMinMultiplier": 0.75,
-    "spread": 1.5,
-    "damage": 9,
-    "armorPen": 2.0,
-    "criticalChance": 0.1,
+    "damage": 11.5,
+    "armorPen": 4.0,
+    "criticalChance": 0.05,
     "gravity": false,
-    "item": "scguns:compact_copper_round",
     "ejectsCasing": true,
-    "casingType": "scguns:small_copper_casing",
-    "casingParticle": "scguns:copper_casing",
+    "item": "scguns:shatter_round",
+    "casingType": "scguns:medium_brass_casing",
+    "casingParticle": "scguns:brass_casing",
     "life": 45,
     "size": 0.05,
     "speed": 7.0,
@@ -54,14 +44,14 @@
   },
   "reloads": {
     "emptyMagTimer": 10,
-    "maxAmmo": 15,
-    "reloadItem": "scguns:compact_copper_round",
+    "maxAmmo": 12,
+    "reloadItem": "scguns:shatter_round",
     "reloadTimer": 50,
     "reloadType": "scguns:mag_fed"
   },
   "sounds": {
     "cock": "scguns:item.pistol.cock",
-    "enchantedFire": "ddguns:item.choppa.fire",
+    "enchantedFire": "scguns:item.iron_pistol.fire",
     "fire": "scguns:item.scrapper.fire",
     "reload": "scguns:item.gauss.reload",
     "silencedFire": "scguns:item.bruiser.silenced_fire"

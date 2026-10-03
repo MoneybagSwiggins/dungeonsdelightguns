@@ -118,6 +118,16 @@ public class ModItems {
                     ModSounds.COPPER_GUN_JAM.get(),
                     ModSounds.COPPER_GUN_JAM.get()
             ));
+    public static final RegistryObject<AnimatedGunItem> RIVEN = ITEMS.register("riven",
+            () -> new AnimatedGunItem(
+                    new Item.Properties().stacksTo(1).durability(300),
+                    "riven",
+                    ModSounds.MAG_OUT.get(),
+                    ModSounds.MAG_IN.get(),
+                    ModSounds.RELOAD_END.get(),
+                    ModSounds.COPPER_GUN_JAM.get(),
+                    ModSounds.COPPER_GUN_JAM.get()
+            ));
     public static final RegistryObject<AnimatedGunItem> PLASMA_PISTOL = ITEMS.register("plasma_pistol",
             () -> new AnimatedGunItem(
                     new Item.Properties().stacksTo(1).durability(300),

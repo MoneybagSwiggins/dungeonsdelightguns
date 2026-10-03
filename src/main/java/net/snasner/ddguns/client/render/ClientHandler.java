@@ -40,6 +40,7 @@ public class ClientHandler {
         ModelOverrides.register((Item)ModItems.FLINT_LOCKEWOOD.get(), new FlintLockewoodModel());
         ModelOverrides.register((Item)ModItems.WRINGMAN.get(), new WringmanModel());
         ModelOverrides.register((Item)ModItems.LUG.get(), new LugModel());
+        ModelOverrides.register((Item)ModItems.RIVEN.get(), new RivenModel());
         ModelOverrides.register((Item)ModItems.WORMROOT_NEEDLE.get(), new WormrootNeedleModel());
         ModelOverrides.register((Item)ModItems.RAYGUN_MK2.get(), new RaygunMk2Model());
         ModelOverrides.register((Item)ModItems.MILLEND_OVERDRIVE.get(), new MillendOverdriveModel());

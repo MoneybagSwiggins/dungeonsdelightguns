@@ -9,7 +9,7 @@
   },
   "general": {
     "fireMode": "scguns:pulse",
-    "fireTimer": 30,
+    "fireTimer": 48,
     "gripType": "scguns:one_handed",
     "rate": 34,
     "meleeDamage": 5,
@@ -28,6 +28,7 @@
     "spread": 10.0,
     "recoilKick": 0.5,
     "damage": 25.0,
+    "criticalChance": 0.05,
     "ejectsCasing": false,
     "gravity": false,
     "item": "scguns:blaze_fuel",

@@ -8,6 +8,7 @@
   "item.ddguns.millend_overdrive":"Millend Overdrive",
   "item.ddguns.raygun_mk2":"Raygun MKII",
   "item.ddguns.lug":"Lug",
+  "item.ddguns.riven":"Riven",
   "item.ddguns.wormroot_needle":"Marrowpiercer",
   "item.ddguns.ddguns_blueprint":"ROT Blueprint",
   "item.ddguns.flint_lockewood":"Flint Lockewood",
@@ -23,6 +24,6 @@
   "scguns.desc.millend_overdrive":"A first test of the Grub Frame on an antique yielded a hulking, unwieldy powerhouse of a firearm. The grub demands and rewards techniques that the average body simply cant keep up with.",
   "scguns.desc.raygun_mk2":"A weapon devised by a former eccentric COG scientist, the Grub concealed within unleashes rapid, if infrequent, bolts of deadly plasma.",
   "scguns.desc.lug":"The Grub within this weapon produces a pressurized gas, launching heavy shotballs at lethal speeds. Users without respirators frequently remark that this is not worth the attack on their nostrils.",
-  "scguns.desc.wormroot_needle":"An innovation from a former Asgharian scientist Dr. Jag, a concoction has rendered a Grub docile enough to use as a potent venomous bio-weapon, but its invasive nature means it is seldom used by the masses of ROT."
-
+  "scguns.desc.wormroot_needle":"An innovation from a former Asgharian scientist Dr. Jag, a concoction has rendered a Grub docile enough to use as a potent venomous bio-weapon, but its invasive nature means it is seldom used by the masses of ROT.",
+  "scguns.desc.riven":"This volatile sidearm was built using principles from an old design of rifle, condensed down onto the robust frame of what was once a Choppa."
 }

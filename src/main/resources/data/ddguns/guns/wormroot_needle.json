@@ -33,6 +33,7 @@
     "weaponType": "special",
     "advantage": "scguns:none",
     "damage": 5.0,
+    "armorPen": 9.0,
     "ejectsCasing": false,
     "gravity": true  ,
     "item": "scguns:syringe",

@@ -20,9 +20,10 @@
     "recoilAngle": 6.8,
     "recoilKick": 2.0,
     "spread": 1.0,
-    "meleeDamage": 2.5,
+    "meleeDamage": 5.5,
     "meleeReach": 2.5,
     "meleeCooldownTicks": 10,
+    "usesCustomMeleeAnimation": true,
     "hotBarrelRate": 20,
     "criticalChance": 0.05
   },
@@ -33,7 +34,8 @@
   "projectile": {
     "recoilAngle": 8.0,
     "recoilKick": 3.0,
-    "spread": 5.0,
+    "alwaysSpread": true,
+    "spread": 1.0,
     "criticalChance": 0.05,
     "playerKnockBack": true,
     "playerKnockBackStrength": 0.5,

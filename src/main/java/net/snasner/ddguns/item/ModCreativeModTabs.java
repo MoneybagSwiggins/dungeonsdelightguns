@@ -17,7 +17,7 @@ public class ModCreativeModTabs {
 
         public static final RegistryObject<CreativeModeTab> DDGUNS_TAB = CREATIVE_MODE_TABS.register("gungeons_delight",
                 () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GNASHER.get()))
-                        .title(Component.translatable("creativetab.ddguns_tab"))
+                        .title(Component.translatable("Gungeons Delight"))
                         .displayItems((pParameters, pOutput) -> {
                             pOutput.accept(ModItems.DDGUNS_BLUEPRINT.get());
                             pOutput.accept(ModItems.GNASHER.get());
@@ -28,6 +28,7 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModItems.GRUB_FRAME.get());
                             pOutput.accept(ModItems.MILLEND_OVERDRIVE.get());
                             pOutput.accept(ModItems.RAYGUN_MK2.get());
+                            pOutput.accept(ModItems.RIVEN.get());
                             pOutput.accept(ModItems.LUG.get());
                             pOutput.accept(ModItems.WORMROOT_NEEDLE.get());
 

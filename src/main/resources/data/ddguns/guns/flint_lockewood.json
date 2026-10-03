@@ -49,6 +49,9 @@
   },
   "projectile": {
     "advantage": "scguns:none",
+    "damageFalloffStart": 15.0,
+    "damageFalloffEnd": 40.0,
+    "damageFalloffMinMultiplier": 0.65,
     "damage": 9.0,
     "alwaysSpread": true,
     "recoilAngle": 12.5,

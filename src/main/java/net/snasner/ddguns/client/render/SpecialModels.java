@@ -16,6 +16,7 @@ public enum SpecialModels {
     CHOPPA_MAIN("choppa/main"),CHOPPA_STA_BARREL("choppa/sta_barrel"),CHOPPA_EXT_BARREL("choppa/ext_barrel"),CHOPPA_SILENCER("choppa/silencer"),CHOPPA_ADVANCED_SILENCER("choppa/advanced_silencer"),CHOPPA_MUZZLE_BRAKE("choppa/muzzle_brake"),
     WRINGMAN_MAIN("wringman/main"),
     LUG_MAIN("lug/main"),
+    RIVEN_MAIN("riven/main"),
     WORMROOT_NEEDLE_MAIN("wormroot_needle/main"),
     NEBILITSA_MAIN("nebilitsa/main"),
     MILLEND_OVERDRIVE_MAIN("millend_overdrive/main"),
