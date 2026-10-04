@@ -8,6 +8,22 @@
       }
     ]
   },
+  "item.choppac.fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/choppa_conversion/fire"
+      }
+    ]
+  },
+  "item.choppac.enchant_fire": {
+    "subtitle": "subtitle.scguns.fire",
+    "sounds": [
+      {
+        "name": "ddguns:item/choppa_conversion/enchant_fire"
+      }
+    ]
+  },
   "item.wringman.fire": {
     "subtitle": "subtitle.scguns.fire",
     "sounds": [

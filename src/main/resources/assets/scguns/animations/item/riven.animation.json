@@ -7,64 +7,41 @@
 				"right_arm": {
 					"rotation": {
 						"0.0": {
-							"post": {
-								"vector": [-270, 0, 0]
-							},
+							"post": [-270, 0, 0],
 							"lerp_mode": "catmullrom"
 						}
 					},
 					"position": {
 						"0.0": {
-							"post": {
-								"vector": [6.2, 0.8, -0.95]
-							},
+							"post": [6.2, 0.8, -0.95],
 							"lerp_mode": "catmullrom"
 						}
 					}
 				},
 				"left_arm": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
+					"scale": 0
 				},
 				"magazine_2": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
+					"scale": 0
 				},
 				"gun_body2": {
 					"position": {
-						"vector": [0, 0, -0.7]
+						"0.0": [0, 0, -0.7],
+						"0.625": [0, 0, 0]
 					}
 				},
 				"gun_body": {
 					"rotation": {
-						"0.0417": {
-							"vector": [15, 0, 0]
-						},
-						"0.4583": {
-							"vector": [0, 0, 0]
-						},
-						"0.5417": {
-							"vector": [-4.16957, 0.82074, 0.03898]
-						},
-						"0.625": {
-							"vector": [0, 0, 0]
-						}
+						"0.0417": [15, 0, 0],
+						"0.4583": [0, 0, 0],
+						"0.5417": [-4.16957, 0.82074, 0.03898],
+						"0.625": [0, 0, 0]
 					},
 					"position": {
-						"0.0417": {
-							"vector": [0, -7, 0]
-						},
-						"0.4583": {
-							"vector": [0, -3, 0]
-						},
-						"0.5417": {
-							"vector": [0, -2.5, 0]
-						},
-						"0.625": {
-							"vector": [0, -3, 0]
-						}
+						"0.0417": [0, -7, 0],
+						"0.4583": [0, -3, 0],
+						"0.5417": [0, -2.5, 0],
+						"0.625": [0, -3, 0]
 					}
 				}
 			}
@@ -319,40 +296,28 @@
 				"right_arm": {
 					"rotation": {
 						"0.0": {
-							"post": {
-								"vector": [-270, 0, 0]
-							},
+							"post": [-270, 0, 0],
 							"lerp_mode": "catmullrom"
 						}
 					},
 					"position": {
 						"0.0": {
-							"post": {
-								"vector": [6.2, -2.2, -0.95]
-							},
+							"post": [6.2, -2.2, -0.95],
 							"lerp_mode": "catmullrom"
 						}
 					}
 				},
 				"left_arm": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
+					"scale": 0
 				},
 				"magazine_2": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
+					"scale": 0
 				},
 				"gun_body2": {
-					"position": {
-						"vector": [0, -3, 0]
-					}
+					"position": [0, -3, 0]
 				},
 				"gun_body": {
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"position": [0, 0, 0]
 				}
 			}
 		},
